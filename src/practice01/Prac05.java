@@ -1,6 +1,6 @@
 package practice01;   //again
 
-import java.util.Scanner;
+import java.util.Scanner;    //again
 
 public class Prac05 {
 	public static void main(String[] args) {
@@ -13,8 +13,7 @@ public class Prac05 {
 		for(int i=1; i<6; i++) {
 			System.out.print("숫자: ");
 			int num=sc.nextInt();    //5
-			if(i==1) {
-					
+			if(i==1) {	
 					current=num;
 					best=current;
 			}
